@@ -7,7 +7,7 @@ aria-current="{{$active ? 'page' : 'false'}}"
 {{$slot}}
 </a>
  @else   
-<button xclass="{{$active ?'text-2xl' : 'text-sm'}}" 
+<button class="{{$active ?'text-2xl' : 'text-sm'}}" 
 aria-current="{{$active ? 'page' : 'false'}}" 
 {{$attributes}}>
 {{$slot}}
